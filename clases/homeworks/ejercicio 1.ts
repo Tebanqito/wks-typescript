@@ -10,15 +10,15 @@ let resultado = variableExplicita + variableInferida
 
 //completar el tipado correspondiente para cada variable
 
-let unString: null = 'mati';
+let unString: string = 'mati';
 
-let unNumber: null = 2;
+let unNumber: number = 2;
 
-let unBoolean: null = true;
+let unBoolean: boolean = true;
 
-let unNull: undefined = null; //que pasa aca?
+let unNull: null = null; //que pasa aca?
 
-let unUndefined: null = undefined //y aca?
+let unUndefined: undefined = undefined //y aca?
 
 	
 // Enum
@@ -36,3 +36,7 @@ enum userActions {
 
 
 export {}
+
+// para ejecutar el codigo de typescritp: npx tsc 
+// para compilar: npx tsc nombreArchivo.ts
+// para crar nuestro archivo de configuracion: npx tsc --init
