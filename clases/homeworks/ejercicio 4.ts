@@ -48,5 +48,9 @@ let Fede: Student = {
 }
 
 //Investiga sus diferencias
+/*
+sus diferencias son la forma que tienen en declararse y que con interfaces se puede hacerse 
+declaraciones merging, cosa que con type no se puede hacer.
+*/
 
 export {}
