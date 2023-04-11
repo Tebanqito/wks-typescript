@@ -28,6 +28,10 @@ let diego: Estudiante = {
 
 // Investiga la palabra reservada implements
 
+/*
+con implements se tiene que agregar las propiedades que hereda de una interface o type a una clase 
+*/
+
 // Existe otra alternativa para realizar lo mismo?
 // Si, types.
 
